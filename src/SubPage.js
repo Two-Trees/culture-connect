@@ -10,6 +10,7 @@ import {
   Button,
 } from "@mui/material";
 import { styled } from "@mui/system";
+import data from "./data/data"
 import subjectData from "./data/subjectData";
 
 const StyledContainer = styled(Container)(({ theme }) => ({
@@ -104,10 +105,10 @@ const ButtonContainer = styled("div")(({ theme }) => ({
 }));
 
 const SubPage = () => {
-  const { id } = useParams();
-  const subject = subjectData[id];
   // const { area } = useParams();
-  // const subject = subjectData.find((i) => i.area === area);
+  // const subject = subjectData[area];
+  const { area } = useParams();
+  const subject = data.world.concat(data.western).find((i) => i.area === area);
 
   const navigate = useNavigate();
 

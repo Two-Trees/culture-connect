@@ -784,7 +784,10 @@ const data = {
       areaLinks: {
         wiki: "",
         audio: "",
-        video: "",
+        video: {
+          youtube1: "",
+          youtube2: "",
+        },
       },
       network: {
         artists: [
@@ -815,7 +818,10 @@ const data = {
       areaLinks: {
         wiki: "",
         audio: "",
-        video: "",
+        video: {
+          youtube1: "",
+          youtube2: "",
+        },
       },
       network: {
         artists: [
@@ -846,7 +852,10 @@ const data = {
       areaLinks: {
         wiki: "",
         audio: "",
-        video: "",
+        video: {
+          youtube1: "",
+          youtube2: "",
+        },
       },
       network: {
         artists: [
@@ -877,7 +886,10 @@ const data = {
       areaLinks: {
         wiki: "",
         audio: "",
-        video: "",
+        video: {
+          youtube1: "",
+          youtube2: "",
+        },
       },
       network: {
         artists: [
@@ -908,7 +920,10 @@ const data = {
       areaLinks: {
         wiki: "",
         audio: "",
-        video: "",
+        video: {
+          youtube1: "",
+          youtube2: "",
+        },
       },
       network: {
         artists: [
@@ -939,7 +954,10 @@ const data = {
       areaLinks: {
         wiki: "",
         audio: "",
-        video: "",
+        video: {
+          youtube1: "",
+          youtube2: "",
+        },
       },
       network: {
         artists: [

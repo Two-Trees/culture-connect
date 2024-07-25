@@ -107,9 +107,9 @@ const CardList = ({ data = [], onCardClick }) => {
     <Container>
       <Grid container spacing={3}>
         {data.map((i, index) => (
-          // console.log(i, index),
+          console.log(i.area),
           <Grid item xs={12} sm={6} md={4} key={index}>
-            <RandomColorCard onClick={() => onCardClick(index)}>
+            <RandomColorCard onClick={() => onCardClick(i.area)}>
               <CardContent>
                 <Typography variant="h5" component="div">
                   {i.area}
@@ -126,8 +126,9 @@ const CardList = ({ data = [], onCardClick }) => {
 const LandingPage = () => {
   const navigate = useNavigate();
 
-  const handleCardClick = (id) => {
-    navigate(`/${id}`);
+  const handleCardClick = (area) => {
+    console.log(area)
+    navigate(`/${area}`);
   };
 
   return (

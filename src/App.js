@@ -21,7 +21,7 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/:id" element={<SubPage />} />
+          <Route path="/:area" element={<SubPage />} />
         </Routes>
       </Router>
     </ThemeProvider>
