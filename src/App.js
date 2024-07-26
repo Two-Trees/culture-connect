@@ -4,6 +4,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./LandingPage";
 import SubPage from "./SubPage";
+import Form from "./Form";
 
 
 const theme = createTheme({
@@ -22,6 +23,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/:area" element={<SubPage />} />
+          <Route path="/form" element={<Form />} />
         </Routes>
       </Router>
     </ThemeProvider>

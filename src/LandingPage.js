@@ -10,8 +10,8 @@ import {
 import { styled } from "@mui/system";
 import { useNavigate } from "react-router-dom";
 import data from "./data/data"
-import subjectData from "./data/subjectData";
-import westernSubjectData from "./data/westernSubjectData";
+// import subjectData from "./data/subjectData";
+// import westernSubjectData from "./data/westernSubjectData";
 import logo from "./styles/logo.png";
 
 var youtubeTestimonial = `https://www.youtube.com/watch?v=z7FBLlTt53s&t=1s`;
@@ -107,7 +107,7 @@ const CardList = ({ data = [], onCardClick }) => {
     <Container>
       <Grid container spacing={3}>
         {data.map((i, index) => (
-          console.log(i.area),
+          console.log(i),
           <Grid item xs={12} sm={6} md={4} key={index}>
             <RandomColorCard onClick={() => onCardClick(i.area)}>
               <CardContent>

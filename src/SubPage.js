@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import { styled } from "@mui/system";
 import data from "./data/data"
-import subjectData from "./data/subjectData";
+// import subjectData from "./data/subjectData";
 
 const StyledContainer = styled(Container)(({ theme }) => ({
   marginTop: theme.spacing(4),
@@ -113,7 +113,8 @@ const SubPage = () => {
   const navigate = useNavigate();
 
   const handleArtistClick = (artist) => {
-    console.log("Artist clicked:");
+    console.log(`Artist clicked:${artist}`);
+    navigate("/form")
   };
 
   const hasVideos =
@@ -195,9 +196,9 @@ const SubPage = () => {
         </StyledButton>
         <StyledButton
           variant="contained"
-          onClick={() => navigate("/learn-more")}
+          onClick={() => navigate("/form")}
         >
-          Learn More
+          Connect with Us
         </StyledButton>
       </ButtonContainer>
     </StyledContainer>
