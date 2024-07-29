@@ -64,7 +64,8 @@ const StyledButton = styled(Button)(({ theme }) => ({
   fontSize: "1.5rem",
   flex: 1, // Make the buttons the same size
   "&:hover": {
-    backgroundColor: theme.palette.primary.dark,
+    transform: "scale(1.05)",
+    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)"
   },
 }));
 
@@ -131,6 +132,14 @@ const LandingPage = () => {
     navigate(`/${area}`);
   };
 
+  const handleLinkClick = () => {
+    window.location.href = "https://www.teachtolearn.life";
+  };
+
+  const handleNavigateClick = () => {
+    navigate("/form");
+  };
+
   return (
     <div style={{ marginTop: "20px", textAlign: "center" }}>
       <Container>
@@ -138,7 +147,7 @@ const LandingPage = () => {
           Culture Connect
         </Typography>
         <Typography variant="h6">
-          bringing together musicians and audiences around the world.
+          bringing together musicians and online audiences   around the world.
         </Typography>
         <img
           src={logo}
@@ -189,27 +198,43 @@ const LandingPage = () => {
         </VideoContainer>
         <Typography
           variant="h3"
-          style={{ marginBottom: "30px", marginTop: "40px" }}
+          style={{ marginBottom: "30px", marginTop: "80px" }}
         >
           Integrations for Classroom Teachers
         </Typography>
         <ButtonContainer>
-          <StyledButton variant="contained" style={{ backgroundColor: "red" }} onClick={() => navigate("/create")}>
+          <StyledButton
+            variant="contained"
+            style={{ backgroundColor: "red" }}
+            onClick={() => window.location.href = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQujIEGEiFGNKz5iXTUlCANKkAXJNyAqqFw_C9DFvwqHqZ-vCNyn1cc4C6FQ1pUaXeNwhQ8zv2ggIry/pubhtml?gid=0&single=true"}
+          >
             Create
           </StyledButton>
-          <StyledButton variant="contained" style={{ backgroundColor: "blue" }} onClick={() => navigate("/perform")}>
+          <StyledButton
+            variant="contained"
+            style={{ backgroundColor: "blue" }}
+            onClick={() => window.location.href = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQujIEGEiFGNKz5iXTUlCANKkAXJNyAqqFw_C9DFvwqHqZ-vCNyn1cc4C6FQ1pUaXeNwhQ8zv2ggIry/pubhtml?gid=1357475008&single=true"}
+          >
             Perform
           </StyledButton>
-          <StyledButton variant="contained" style={{ backgroundColor: "green" }} onClick={() => navigate("/respond")}>
+          <StyledButton
+            variant="contained"
+            style={{ backgroundColor: "green" }}
+            onClick={() => window.location.href = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQujIEGEiFGNKz5iXTUlCANKkAXJNyAqqFw_C9DFvwqHqZ-vCNyn1cc4C6FQ1pUaXeNwhQ8zv2ggIry/pubhtml?gid=813054106&single=true"}
+          >
             Respond
           </StyledButton>
-          <StyledButton variant="contained" style={{ backgroundColor: "gold" }} onClick={() => navigate("/connect")}>
+          <StyledButton
+            variant="contained"
+            style={{ backgroundColor: "gold" }}
+            onClick={() => window.location.href = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQujIEGEiFGNKz5iXTUlCANKkAXJNyAqqFw_C9DFvwqHqZ-vCNyn1cc4C6FQ1pUaXeNwhQ8zv2ggIry/pubhtml?gid=423709427&single=true"}
+          >
             Connect
           </StyledButton>
         </ButtonContainer>
         <Typography
           variant="h3"
-          style={{ marginBottom: "30px", marginTop: "40px" }}
+          style={{ marginBottom: "30px", marginTop: "80px" }}
         >
           Participating Schools and Communities
         </Typography>
@@ -228,7 +253,29 @@ const LandingPage = () => {
           <img src="/img/clients/attic angel.jpg" alt="attic angel" />
           <img src="/img/clients/lincoln commons.png" alt="lincoln commons" />
         </ClientLogos>
+        <Grid container justifyContent="center" spacing={3} style={{ marginTop: '50px' }}>
+          <Grid item xs={12} sm={6} md={4}>
+            <RandomColorCard onClick={handleLinkClick}>
+              <CardContent>
+                <Typography variant="h5" component="div">
+                  Teach To Learn
+                </Typography>
+              </CardContent>
+            </RandomColorCard>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <RandomColorCard style={{marginBottom: "35px"}} onClick={handleNavigateClick}>
+              <CardContent>
+                <Typography variant="h5" component="div">
+                  Sign Up Now
+                </Typography>
+              </CardContent>
+            </RandomColorCard>
+          </Grid>
+        </Grid>
       </Container>
+
+
     </div>
   );
 };

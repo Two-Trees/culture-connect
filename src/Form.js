@@ -4,7 +4,7 @@ import { styled } from '@mui/system';
 
 const StyledContainer = styled(Container)(({ theme }) => ({
     marginTop: theme.spacing(4),
-    maxWidth: '600px',
+    maxWidth: '330px',
 }));
 
 const Header = styled(Typography)(({ theme }) => ({
@@ -14,7 +14,7 @@ const Header = styled(Typography)(({ theme }) => ({
 
 const Paragraph = styled(Typography)(({ theme }) => ({
     marginBottom: theme.spacing(4),
-    maxWidth: '600px',
+    // maxWidth: '600px',
     fontSize: "1rem"
 }))
 
@@ -46,12 +46,25 @@ const Form = () => {
         }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(e)
         console.log(formData)
-        // You can handle form submission here (e.g., send data to a server)
-        setSubmitted(true);
+        try {
+            const response = await fetch('http://localhost:5001/api/submit', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData),
+            });
+
+            if (response.ok) {
+                setSubmitted(true);
+            } else {
+                alert('Failed to submit request.');
+            }
+        } catch (error) {
+            console.error('Error submitting request: ', error);
+            alert('Failed to submit request.');
+        }
     };
 
     if (submitted) {
@@ -70,7 +83,7 @@ const Form = () => {
     return (
         <StyledContainer>
             <Header variant="h2">Connect With Us</Header>
-            <Paragraph> We use technology to create human connections.  Whether you are interested in a single exchange or a year-long collaboration, the next step is to fill out this simple form and a human will follow up with you! </Paragraph>
+            <Paragraph> Interested in connecting with an artist? The next step is to fill out this simple form and we will follow up with you! </Paragraph>
             <form onSubmit={handleSubmit}>
                 <Grid container spacing={2}>
                     <Grid item xs={12} sm={6}>
