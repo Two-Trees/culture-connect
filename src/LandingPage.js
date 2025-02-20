@@ -247,11 +247,11 @@ const LandingPage = () => {
           <img src="/img/clients/hamilton-wenham.png" alt="hamilton-wenham" />
           <img src="/img/clients/bridge.png" alt="bridge boston" />
           <img src="/img/clients/musary.jpg" alt="musary" />
-          <img src="/img/clients/el sistema.png" alt="el sistema" />
+          <img src="/img/clients/elsistema.png" alt="el sistema" />
           <img src="/img/clients/bmp.png" alt="boston music project" />
           <img src="/img/clients/avenidas.png" alt="avenidas" />
-          <img src="/img/clients/attic angel.jpg" alt="attic angel" />
-          <img src="/img/clients/lincoln commons.png" alt="lincoln commons" />
+          <img src="/img/clients/atticangel.jpg" alt="attic angel" />
+          <img src="/img/clients/lincolncommons.png" alt="lincoln commons" />
         </ClientLogos>
         <Grid container justifyContent="center" spacing={3} style={{ marginTop: '50px' }}>
           <Grid item xs={12} sm={6} md={4}>

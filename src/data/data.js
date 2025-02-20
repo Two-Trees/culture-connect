@@ -59,6 +59,7 @@ const data = {
             instrument: "Piano",
             bio: "Composer, Improviser based in Brooklyn, faculty at Julliard and NEC, originally from Sao Paulo",
             link: "https://henriqueeisenmann.com/",
+            img: "/img/artists/henrique.jpg"
           },
           {
             name: "Gustavo D'Amico",
@@ -67,6 +68,7 @@ const data = {
             instrument: "saxophone",
             bio: "Aspiring jazz musician. Currently based in Brooklyn. Originally from Sao Paulo.",
             link: "",
+            img: "/img/artists/gustavo.jpg"
           },
         ],
       },
@@ -93,6 +95,7 @@ const data = {
             instrument: "Guitar",
             bio: "World traveling song-writer, based in Kathmandu, originally from Santiago",
             link: "",
+            img: "/img/artists/moa.jpg"
           },
           {
             name: "Tomás Carrasco Gubernatis",
@@ -101,6 +104,7 @@ const data = {
             instrument: "Woodwinds",
             bio: "Cross-cultural flute and aerophone specialist, based in Kathmandu",
             link: "",
+            img: "/img/artists/tomás.jpg"
           },
         ],
       },
@@ -126,7 +130,8 @@ const data = {
             style: "Traditional Chinese, Contemporary",
             instrument: "Guzheng",
             bio: "Born in Hefei, Anhui, China, currently studying media and music at the University of Leipzig, Germany",
-            link: ""
+            link: "",
+            img: "/img/artists/katerina.jpg"
           },
           {
             name: "Beitong Liu",
@@ -135,6 +140,7 @@ const data = {
             instrument: "Erhu",
             bio: "First class to graduate from Bard with a degree in Chinese instrument performance offered through the US-China Music Institute",
             link: "",
+            img: "/img/artists/beitong.jpg"
           },
         ],
       },
@@ -161,6 +167,7 @@ const data = {
             instrument: "Marimba, Percussion",
             bio: "Founder of Marimbea, works with Colombian indigenous communities, based in Cali",
             link: "",
+            img: "/img/artists/adrian.jpg"
           },
           {
             name: "Gregorio Uribe",
@@ -169,6 +176,7 @@ const data = {
             instrument: "Accordion, Voice",
             bio: "Renown pop, dance, and traditional music performer. Currently based in Washington DC. Originally from Bogata.",
             link: "https://www.gregoriouribe.com/",
+            img: "/img/artists/gregorio.jpg"
           },
         ],
       },
@@ -195,6 +203,7 @@ const data = {
             instrument: "Guitar, Voice",
             bio: "Guitarist and song writer based in Brooklyn. Dance music specialist. Originally from near Santa Domingo",
             link: "https://yassertejeda.net/",
+            img: "/img/artists/yasser.jpg"
           },
           {
             name: "Otoniel Vargas",
@@ -203,6 +212,7 @@ const data = {
             instrument: "Drumset, Percussion",
             bio: "Drummer for Prince Royo, based in Queens, originally from Puerto Plata",
             link: "https://www.youtube.com/channel/UC5x5xNKgyg_7Fi-K2_iGIxg",
+            img: "/img/artists/otoniel.jpg"
           },
         ],
       },
@@ -228,7 +238,8 @@ const data = {
             style: "African Traditional fused with jazz, hiphop, reggae, funk, and more",
             instrument: "Percussion",
             bio: "Renowned speaker and women's rights advocate, percussion specialist, based in Kenya",
-            link: "https://kasivamutua.com/"
+            link: "https://kasivamutua.com/",
+            img: "/img/artists/kasiva.jpg"
           },
           {
             name: "",
@@ -237,6 +248,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
         ],
       },
@@ -263,6 +275,7 @@ const data = {
             instrument: "Brass",
             bio: "Klezmer and experimental music specialist. Currently based in Brooklyn. Originally from Philadelphia.",
             link: "https://www.danblacksberg.com/",
+            img: "/img/artists/dan.jpg"
           },
           {
             name: "Zoë Aqua",
@@ -271,26 +284,18 @@ const data = {
             instrument: "Strings",
             bio: "Elementary music education specialist, Fulbright Research Scholar, based in Transylvania",
             link: "https://www.zoeaqua.com/",
+            img: "/img/artists/zoe.jpg"
           },
-          {
-
-            name: "Itay Dayan",
-            country: "Israel",
-            style: "",
-            instrument: "Clarinet",
-            bio: "Composer, pursuing a Masters degree at the New England Conservatory",
-            link: "https://itaymusic.com/",
-          }
         ]
       },
     },
     {
       id: 8,
       area: "Ireland",
-      description: "",
+      description: "Embark on a captivating musical journey into the heart of Ireland's rich cultural heritage through its traditional music. Our music education program invites you to explore the enchanting melodies and lively rhythms of Irish music. Delve into the intricacies of iconic Irish instruments such as the fiddle, bodhrán, and tin whistle, under the expert guidance of our experienced music educators. Discover the magic of Irish traditional music, where each note carries the spirit of a land steeped in history and folklore. Our skilled educators will lead you through the soul-stirring airs, energetic jigs, and heart-pounding reels that define the genre. Whether you're a devoted musician or a music enthusiast, our program promises an immersive and transformative experience.",
       areaImg: "",
       areaLinks: {
-        wiki: "",
+        wiki: "https://en.wikipedia.org/wiki/Irish_traditional_music",
         audio: "",
         video: {
           youtube1: "",
@@ -300,12 +305,13 @@ const data = {
       network: {
         artists: [
           {
-            name: "",
-            country: "",
+            name: "Winifred Horan",
+            country: "United States",
             style: "",
-            instrument: "",
+            instrument: "Fiddle",
             bio: "",
             link: "",
+            img: "/img/artists/winifred.jpg"
           },
           {
             name: "",
@@ -314,6 +320,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
         ],
       },
@@ -321,59 +328,62 @@ const data = {
     {
       id: 9,
       area: "Iran",
-      description: "",
+      description: "Embark on an enchanting musical odyssey through the captivating melodies and rich cultural tapestry of Iran. Our music education program invites you to immerse yourself in the world of Iranian music, where centuries of history, artistry, and emotion converge. Delve into the techniques of iconic Persian instruments such as the santur, tar, and setar under the expert guidance of our passionate music educators. Discover the profound cultural significance and emotive power of Iranian music as you explore genres like classical Persian music, regional folk tunes, and Sufi mystical chants. By mastering the intricate maqams, dastgahs, and subtle ornamentations, you'll capture the essence of Iranian music. Whether you're an aspiring musician or a music enthusiast, our program promises an immersive and enlightening experience.",
       areaImg: "",
       areaLinks: {
-        wiki: "",
+        wiki: "https://en.wikipedia.org/wiki/Persian_traditional_music",
         audio: "",
         video: {
-          youtube1: "",
-          youtube2: "",
-        },
+          youtube1: "https://www.youtube.com/watch?v=YJk9Mb4FyJ0",
+          youtube2: "https://www.youtube.com/watch?v=Yj6wDzjS3io"
+        }
       },
       network: {
         artists: [
           {
-            name: "",
-            country: "",
+            name: "Mehrnam Rastegari",
+            country: "Iran",
             style: "",
-            instrument: "",
-            bio: "",
-            link: "",
+            instrument: "Kamancheh",
+            bio: "Film Score Composer, Singer, Violinist, and Master Kamancheh Player",
+            link: "https://mehrnamrastegari.com/",
+            img: "/img/artists/mehrnam.jpg"
           },
           {
-            name: "",
-            country: "",
+            name: "Bahar Badieitabar",
+            country: "Iran",
             style: "",
-            instrument: "",
-            bio: "",
+            instrument: "Oud",
+            bio: "Studying composition and performance at Berklee College of Music on full scholarship",
             link: "",
-          },
+            img: "/img/artists/bahar.jpg"
+          }
         ],
       },
     },
     {
       id: 10,
       area: "Israel",
-      description: "",
+      description: "Embark on a soul-stirring musical expedition into the captivating world of Klezmer and the rich Jewish music heritage of Eastern Europe and Israel. Our music education program offers a unique opportunity to explore the emotional depths and cultural nuances of this evocative genre. Delve into the vibrant melodies of the clarinet, violin, and accordion, and learn to master their expressive techniques under the expert guidance of our music educators. Discover the history and significance of Klezmer music, which tells tales of joy, sorrow, and resilience through its melodies. Whether you're a dedicated musician or a curious soul, our program promises an unforgettable journey into the heart of Eastern European Jewish music.",
       areaImg: "",
       areaLinks: {
-        wiki: "",
+        wiki: "https://en.wikipedia.org/wiki/Klezmer",
         audio: "",
         video: {
-          youtube1: "",
-          youtube2: "",
+          youtube1: "https://www.youtube.com/watch?v=7py2GiNvVhM",
+          youtube2: "https://www.youtube.com/watch?v=pk_1pw70Qjc"
         },
       },
       network: {
         artists: [
           {
-            name: "",
-            country: "",
+            name: "Itay Dayan",
+            country: "Israel",
             style: "",
-            instrument: "",
-            bio: "",
-            link: "",
+            instrument: "Clarinet",
+            bio: "Composer, Pursuing a Master’s degree at the New England Conservatory",
+            link: "https://itaymusic.com/",
+            img: "/img/artists/itay.jpg"
           },
           {
             name: "",
@@ -382,6 +392,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
         ],
       },
@@ -389,49 +400,49 @@ const data = {
     {
       id: 11,
       area: "Korea",
-      description: "",
+      description: "Embark on a captivating musical odyssey into the enchanting world of Korean music, where tradition and innovation harmonize to create a unique soundscape. Our music education program offers an opportunity to immerse yourself in the rich heritage of Korean music. Learn the techniques of traditional instruments such as the gayageum and the geomungo, and explore traditional Korean genres like Gugak. Our skilled educators will guide you through the art of playing Janggu, the traditional double-headed drum, and introduce you to pansori, the epic narrative singing style. Whether you're a music enthusiast or an aspiring musician, our program promises an unforgettable journey into the melodies of Korea.",
       areaImg: "",
       areaLinks: {
-        wiki: "",
-        audio: "",
+        wiki: "https://en.wikipedia.org/wiki/Music_of_Korea",
+        audio: "https://open.spotify.com/album/2x4EtunjdzGIQ3NsN484Ut?go=1&sp_cid=2d2426c8659818d5631c56859f9dcf69&utm_source=embed_player_p&utm_medium=desktop&nd=1&dlsi=12bb3d3e9f7540b3",
         video: {
-          youtube1: "",
-          youtube2: "",
-        },
+          youtube1: "https://www.youtube.com/watch?v=W3waFD68CEg",
+          youtube2: "https://www.youtube.com/watch?v=e7wI24e7QFE",
+          youtube3: "https://www.youtube.com/watch?v=dDTXmgYXERk"
+        }
       },
       network: {
         artists: [
           {
-            name: "",
-            country: "",
-            style: "",
-            instrument: "",
-            bio: "",
-            link: "",
+            name: "Gamin",
+            country: "South Korea",
+            style: "Korean Traditional",
+            instrument: "Piri, Saenghwang, Taepyeongso",
+            bio: "Based in Brooklyn, Experiments in new contexts, Originally from outside Seoul",
+            link: "https://www.gaminmusic.com/",
+            img: "/img/artists/gamin.jpg"
           },
           {
-            name: "",
+            name: "Vong Pak",
             country: "",
-            style: "",
-            instrument: "",
-            bio: "",
+            style: "Korean Traditional",
+            instrument: "Janggu, Buk",
+            bio: "Practitioner of Traditional Korean Drumming, Theatre, and Ritual, Based in Brooklyn, From outside Seoul",
             link: "",
-          },
+            img: "/img/artists/vong.jpg"
+          }
         ],
       },
     },
     {
       id: 12,
       area: "Mexico",
-      description: "",
+      description: "Embark on a vibrant musical journey to the heart of Mexico's rich cultural tapestry. Our music education program invites you to immerse yourself in the world of Mexican music, where indigenous roots, Spanish influences, and contemporary creativity fuse to create an enchanting sonic experience. Delve into the techniques of iconic Mexican instruments such as the mariachi trumpet, guitarrón, and jarana bajo the expert guidance of our passionate music educators. Discover the profound cultural significance of Mexican music as you explore genres like ranchera, son jarocho, and huapango. Whether you're an aspiring musician or a music enthusiast, our program promises an immersive and enlightening experience.",
       areaImg: "",
       areaLinks: {
-        wiki: "",
+        wiki: "https://en.wikipedia.org/wiki/Music_of_Mexico",
         audio: "",
-        video: {
-          youtube1: "",
-          youtube2: "",
-        },
+        video: ""
       },
       network: {
         artists: [
@@ -442,6 +453,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
           {
             name: "",
@@ -450,6 +462,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
         ],
       },
@@ -512,10 +525,10 @@ const data = {
     {
       id: 14,
       area: "Puerto Rico",
-      description: "",
+      description: "Embark on a rhythmic journey to the vibrant island of Puerto Rico, where the infectious beats and captivating melodies of traditional music create a colorful tapestry of cultural expression. Our music education program invites you to explore the enchanting world of Puerto Rican music, where African, Spanish, and indigenous influences harmonize to form a unique and lively sonic experience. Delve into the intricate techniques of iconic Puerto Rican instruments such as the cuatro, güiro, and bongo under the expert guidance of our passionate music educators, as they unveil the magic of this dynamic musical heritage.",
       areaImg: "",
       areaLinks: {
-        wiki: "",
+        wiki: "https://en.wikipedia.org/wiki/Music_of_Puerto_Rico",
         audio: "",
         video: {
           youtube1: "",
@@ -525,31 +538,33 @@ const data = {
       network: {
         artists: [
           {
-            name: "",
-            country: "",
+            name: "Alfonso Piacentini",
+            country: "Puerto Rico",
             style: "",
-            instrument: "",
-            bio: "",
+            instrument: "Percussion",
+            bio: "M.M. in orchestral conducting from Boston Conservatory at Berklee, B.M. in orchestral percussion from the Puerto Rico Conservatory of Music",
             link: "",
+            img: "/img/artists/alfonso.jpg"
           },
           {
-            name: "",
-            country: "",
+            name: "Gerson De La Rosa",
+            country: "Puerto Rico",
             style: "",
-            instrument: "",
-            bio: "",
+            instrument: "Percussion",
+            bio: "Educator based in Boston, Studied with Jose Alicea Espada, Performed with the Puerto Rico Philharmonic Orchestra and Puerto Rico Youth Symphony Orchestra",
             link: "",
-          },
+            img: "/img/artists/gerson.jpg"
+          }
         ],
       },
     },
     {
       id: 15,
       area: "Russia",
-      description: "",
+      description: "Embark on an enchanting musical journey through the vast landscapes and rich cultural heritage of Russia, where the melodies of ancient traditions and passionate emotions blend to create a symphony that resonates through history. Our music education program invites you to delve into the captivating world of Russian traditional music, a realm where folklore, storytelling, and intricate melodies come together to form a unique and captivating sonic experience. Explore the intricacies of iconic Russian instruments such as the balalaika, bayan, and domra under the expert guidance of our dedicated music educators, as they unveil the magic of this rich musical heritage.",
       areaImg: "",
       areaLinks: {
-        wiki: "",
+        wiki: "https://en.wikipedia.org/wiki/Music_of_Russia",
         audio: "",
         video: {
           youtube1: "",
@@ -559,12 +574,13 @@ const data = {
       network: {
         artists: [
           {
-            name: "",
-            country: "",
+            name: "Anya Shatilova",
+            country: "Russia",
             style: "",
-            instrument: "",
-            bio: "",
+            instrument: "Domra",
+            bio: "Composer, performer, Ethnomusicology PhD candidate at Wesleyan University, From St. Petersburg",
             link: "",
+            img: "/img/artists/anya.jpg"
           },
           {
             name: "",
@@ -573,6 +589,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
         ],
       },
@@ -580,25 +597,26 @@ const data = {
     {
       id: 16,
       area: "Scandinavia",
-      description: "",
+      description: "Embark on a captivating musical journey into the enchanting world of traditional Scandinavian music, where the haunting melodies of the North echo through time. Our music education program invites you to explore the rich tapestry of melodies that have shaped the cultural landscape of Scandinavia for generations. From the lilting tunes of the Hardanger fiddle that resonate with the soul of Norway to the lively polskas of Sweden that set feet tapping, our expert music educators will guide you through the nuances of these iconic genres, helping you master instruments like the nyckelharpa, accordion, and more.",
       areaImg: "",
       areaLinks: {
-        wiki: "",
+        wiki: "https://en.wikipedia.org/wiki/Nordic_folk_music",
         audio: "",
         video: {
-          youtube1: "",
+          youtube1: "https://www.youtube.com/watch?v=aXNovsMnIkw",
           youtube2: "",
         },
       },
       network: {
         artists: [
           {
-            name: "",
-            country: "",
-            style: "",
-            instrument: "",
-            bio: "",
-            link: "",
+            name: "Sunniva Brynnel",
+            country: "Sweden",
+            style: "Folk, Contemporary",
+            instrument: "Accordion, Voice",
+            bio: "Renowned Musician, Vocal, Accordion, and Dance Specialist, Based in the Bay Area",
+            link: "https://sunnivabrynnel.com/",
+            img: "/img/artists/sunniva.jpg"
           },
           {
             name: "",
@@ -607,6 +625,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
         ],
       },
@@ -614,25 +633,26 @@ const data = {
     {
       id: 17,
       area: "Sri Lanka",
-      description: "",
+      description: "Embark on a captivating musical expedition to the enchanting island of Sri Lanka, where the melodies of ancient traditions and cultural diversity come together to create a symphony that echoes through time. Our music education program invites you to explore the rich and vibrant tapestry of Sri Lankan traditional music, a realm where rhythms evoke the heartbeat of the land and melodies tell stories of history and heritage. Delve into the intricate techniques of iconic Sri Lankan instruments like the tabla, sitar, and miruthangam, guided by our passionate music educators who are dedicated to preserving and sharing this unique musical legacy.",
       areaImg: "",
       areaLinks: {
-        wiki: "",
+        wiki: "https://en.wikipedia.org/wiki/Music_of_Sri_Lanka",
         audio: "",
         video: {
-          youtube1: "",
+          youtube1: "https://www.youtube.com/watch?v=ThjtRUxNyTs",
           youtube2: "",
         },
       },
       network: {
         artists: [
           {
-            name: "",
-            country: "",
+            name: "Sumudi Suraweera",
+            country: "Sri Lanka",
             style: "",
-            instrument: "",
-            bio: "",
+            instrument: "Drumset, Percussion",
+            bio: "Founder of Musicmatters School, PhD from Cantebury University, Based in Colombo",
             link: "",
+            img: "/img/artists/sum.jpg"
           },
           {
             name: "",
@@ -641,6 +661,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.jpg"
           },
         ],
       },
@@ -648,25 +669,26 @@ const data = {
     {
       id: 18,
       area: "South Africa",
-      description: "",
+      description: "Embark on an exhilarating musical voyage through the rich and diverse rhythms of South Africa, where centuries of cultural influences have converged to create a tapestry of sound unlike any other. Our music education program invites you to delve into the captivating melodies of this nation, where traditions from indigenous communities, European settlers, and vibrant African diaspora meet to form a harmonious blend of genres. Learn to play iconic instruments such as the marimba, whose resonant tones echo the spirit of the land, and immerse yourself in the rhythmic complexities of indigenous drums under the guidance of our expert music educators. Explore the heart and soul of South African music through genres like mbaqanga, a lively fusion of jazz, traditional rhythms, and pop influences that has become synonymous with the country's spirit of resilience and joy.\n\nOur skilled educators will introduce you to the intricacies of isicathamiya, the mesmerizing a cappella style that tells stories of life and love through harmonious melodies. Dive into the vibrant world of kwaito, a genre that emerged from the townships and urban centers, blending electronic beats with local slang to create a modern sonic reflection of South African youth culture. Whether you're a budding musician seeking to broaden your horizons or a music enthusiast captivated by the diversity of South African sound, our music education program promises an enriching and enlightening experience that will deepen your connection to this extraordinary musical heritage.",
       areaImg: "",
       areaLinks: {
-        wiki: "",
+        wiki: "https://en.wikipedia.org/wiki/Isicathamiya",
         audio: "",
         video: {
-          youtube1: "",
-          youtube2: "",
+          youtube1: "https://www.youtube.com/watch?v=jXgXqM9u-L4",
+          youtube2: "https://www.youtube.com/watch?v=Bar7qKUws1Q",
         },
       },
       network: {
         artists: [
           {
-            name: "",
-            country: "",
-            style: "",
-            instrument: "",
-            bio: "",
+            name: "Naledi Masilo",
+            country: "South Africa",
+            style: "Choral, Jazz",
+            instrument: "Voice",
+            bio: "Founder of Dreaming Girls Foundation, Originally from Johannesburg",
             link: "",
+            img: "/img/artists/naledi.jpg"
           },
           {
             name: "",
@@ -675,6 +697,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
         ],
       },
@@ -682,33 +705,26 @@ const data = {
     {
       id: 19,
       area: "South India",
-      description: "",
+      description: "Embark on a mesmerizing musical journey into the heart of South India's rich cultural tapestry, where the rhythms and melodies of ancient traditions create a vibrant symphony that resonates with the soul. Our music education program invites you to immerse yourself in the captivating world of South Indian music, a realm where devotion, artistry, and intricate rhythms converge to form an enchanting experience. Delve into the intricacies of iconic South Indian instruments like the veena, mridangam, and ghatam under the expert guidance of our passionate music educators, as they unveil the magic of this unique musical heritage.",
       areaImg: "",
       areaLinks: {
         wiki: "",
         audio: "",
         video: {
-          youtube1: "",
-          youtube2: "",
+          youtube1: "https://www.youtube.com/watch?v=SY-9OL5OsFk",
+          youtube2: "https://www.youtube.com/watch?v=sie2EzJWfig",
         },
       },
       network: {
         artists: [
           {
-            name: "",
-            country: "",
-            style: "",
-            instrument: "",
-            bio: "",
+            name: "Shivaraj Natraj",
+            country: "India",
+            style: "Konnakol",
+            instrument: "Voice",
+            bio: "The Konnakol Beatboxer, Internationally Renowned Vocal Artist, Hailing from Bangalore",
             link: "",
-          },
-          {
-            name: "",
-            country: "",
-            style: "",
-            instrument: "",
-            bio: "",
-            link: "",
+            img: "/img/artists/shivaraj.png"
           },
         ],
       },
@@ -716,25 +732,26 @@ const data = {
     {
       id: 20,
       area: "Spain",
-      description: "",
+      description: "Embark on a captivating musical journey to the heart of Spain's rich cultural heritage, where the vibrant rhythms and soulful melodies of traditional Spanish music come alive. Our music education program invites you to explore the passionate world of Spanish music, a realm where history, passion, and intricate artistry converge to create an enchanting sonic experience. Delve into the intricate techniques of iconic Spanish instruments like the guitar, castanets, and flamenco cajón under the expert guidance of our dedicated music educators, as they unveil the magic of this unique musical heritage.",
       areaImg: "",
       areaLinks: {
         wiki: "",
         audio: "",
         video: {
-          youtube1: "",
-          youtube2: "",
+          youtube1: "https://www.youtube.com/watch?v=Vs7uuo9roec",
+          youtube2: "https://www.youtube.com/watch?v=DO1KmKxJ0Qo",
         },
       },
       network: {
         artists: [
           {
-            name: "",
-            country: "",
-            style: "",
-            instrument: "",
-            bio: "",
+            name: "María Fajardo Martín",
+            country: "Spain",
+            style: "Jazz",
+            instrument: "Voice",
+            bio: "Academic Director of Kathmandu Conservatory, Currently based in Nepal",
             link: "",
+            img: "/img/artists/maria.jpg"
           },
           {
             name: "",
@@ -743,6 +760,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
         ],
       },
@@ -750,25 +768,26 @@ const data = {
     {
       id: 21,
       area: "Ukraine",
-      description: "",
+      description: "Embark on a captivating musical odyssey to the enchanting landscapes of Ukraine, where the echoes of centuries-old traditions resonate through the melodies and harmonies of its traditional music. Our music education program invites you to immerse yourself in the rich and diverse tapestry of Ukrainian music, a realm where folklore, history, and cultural pride converge. Delve into the intricacies of iconic Ukrainian instruments like the bandura, kobza, and sopilka under the expert guidance of our passionate music educators, as they share the magic of this unique musical heritage.",
       areaImg: "",
       areaLinks: {
-        wiki: "",
+        wiki: "https://en.wikipedia.org/wiki/Balalaika",
         audio: "",
         video: {
-          youtube1: "",
-          youtube2: "",
+          youtube1: "https://www.youtube.com/watch?v=TvxV7VnrYSk",
+          youtube2: "https://www.youtube.com/watch?v=5A5o9Y-L-eU",
         },
       },
       network: {
         artists: [
           {
-            name: "",
-            country: "",
-            style: "",
-            instrument: "",
-            bio: "",
+            name: "Tetiana Khomenko",
+            country: "Ukraine",
+            style: "Traditional",
+            instrument: "Balalaika",
+            bio: "Traditional Balalaika and Domra Performer, Originally from Ukraine, Based in Toronto",
             link: "",
+            img: "/img/artists/tetiana.jpg"
           },
           {
             name: "",
@@ -777,6 +796,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
         ],
       },
@@ -784,25 +804,26 @@ const data = {
     {
       id: 22,
       area: "Tibet",
-      description: "",
+      description: "Discover the profound cultural significance and emotive power of West African music as you explore genres such as Malian griot storytelling and Togolese agbadza rhythms. Our skilled educators will lead you through the soul-stirring melodies that celebrate ancestral connections, contemporary stories, and the vibrant energy of the region. By mastering the distinct tonalities and rhythmic intricacies, you'll be able to capture the essence of West African music and transport yourself to the heart of these culturally rich lands. Whether you're an aspiring musician eager to explore new cultural horizons or a music enthusiast captivated by the sounds of Mali and Togo, our music education program promises an immersive and enlightening experience that will deepen your appreciation for West African musical heritage and inspire your own artistic journey.",
       areaImg: "",
       areaLinks: {
-        wiki: "",
+        wiki: "https://en.wikipedia.org/wiki/Music_of_Tibet",
         audio: "",
         video: {
-          youtube1: "",
-          youtube2: "",
+          youtube1: "https://www.youtube.com/watch?v=ATsJBX2-9Qk",
+          youtube2: "https://www.youtube.com/watch?v=Bc6yyVKutzQ",
         },
       },
       network: {
         artists: [
           {
-            name: "",
-            country: "",
-            style: "",
-            instrument: "",
-            bio: "",
-            link: "",
+            name: "Techung",
+            country: "Tibet",
+            style: "Tibetan Folk",
+            instrument: "Dramyin",
+            bio: "Highly Regarded Tibetan Folk Specialist, Based in upstate New York",
+            link: "https://www.techung.com/",
+            img: "/img/artists/techung.jpg"
           },
           {
             name: "",
@@ -811,6 +832,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
         ],
       },
@@ -818,33 +840,35 @@ const data = {
     {
       id: 23,
       area: "West Africa",
-      description: "",
+      description: "Embark on a captivating musical odyssey through the vibrant rhythms and soulful melodies of West Africa, where ancient traditions and cultural diversity converge to create a symphony of enchanting sounds. Our music education program invites you to immerse yourself in the rich tapestry of West African music, a realm where the heartbeat of Mali and the soul of Togo come alive through rhythmic complexities and mesmerizing tunes. Delve into the intricate techniques of iconic West African instruments like the djembe, kora, and balafon under the expert guidance of our passionate music educators, as they share the magic of these unique musical traditions.",
       areaImg: "",
       areaLinks: {
-        wiki: "",
+        wiki: "https://en.wikipedia.org/wiki/Ewe_drumming",
         audio: "",
         video: {
-          youtube1: "",
-          youtube2: "",
+          youtube1: "https://www.youtube.com/watch?v=EJvQ4T7YoUg",
+          youtube2: ""
         },
       },
       network: {
         artists: [
           {
-            name: "",
+            name: "Balla Kayoute",
             country: "",
             style: "",
-            instrument: "",
-            bio: "",
+            instrument: "Ballaphone",
+            bio: "Elder Master, 10th Generation Balafone Performer, Founding Member of Silkroad Ensemble",
             link: "",
+            img: "/img/artists/balla.jpg"
           },
           {
-            name: "",
-            country: "",
+            name: "Amen Viana",
+            country: "Togo",
             style: "",
-            instrument: "",
-            bio: "",
+            instrument: "Guitar, Vocals",
+            bio: "Versatile Guitarist and Vocalist, Creator of Electric Togoland, From Lome, Togo",
             link: "",
+            img: "/img/artists/amen.jpg"
           },
         ],
       },
@@ -873,14 +897,16 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/leela.jpg"
           },
           {
-            name: "",
+            name: "Eden Macadam-Somer",
             country: "",
             style: "",
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/eden.jpg"
           },
         ],
       },
@@ -907,6 +933,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logan.jpg"
           },
           {
             name: "",
@@ -915,6 +942,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
         ],
       },
@@ -941,6 +969,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
           {
             name: "",
@@ -949,6 +978,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
         ],
       },
@@ -969,12 +999,13 @@ const data = {
       network: {
         artists: [
           {
-            name: "Greta Myatevia",
+            name: "Alfonso Piancentini",
             country: "",
             style: "",
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
           {
             name: "",
@@ -983,6 +1014,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
         ],
       },
@@ -1003,12 +1035,13 @@ const data = {
       network: {
         artists: [
           {
-            name: "Greta Myatevia",
+            name: "",
             country: "",
             style: "",
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
           {
             name: "",
@@ -1017,6 +1050,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
         ],
       },
@@ -1037,12 +1071,13 @@ const data = {
       network: {
         artists: [
           {
-            name: "Greta Myatevia",
+            name: "Adam Clark",
             country: "",
             style: "",
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
           {
             name: "",
@@ -1051,6 +1086,7 @@ const data = {
             instrument: "",
             bio: "",
             link: "",
+            img: "/img/artists/logo.png"
           },
         ],
       },
