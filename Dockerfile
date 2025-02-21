@@ -10,6 +10,9 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install
 
+# Set OpenSSL legacy provider to avoid crypto errors
+ENV NODE_OPTIONS="--openssl-legacy-provider"
+
 # Copy the rest of the application code
 COPY . .
 

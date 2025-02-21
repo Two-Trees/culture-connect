@@ -108,7 +108,7 @@ const CardList = ({ data = [], onCardClick }) => {
     <Container>
       <Grid container spacing={3}>
         {data.map((i, index) => (
-          console.log(i),
+          console.log(i), 
           <Grid item xs={12} sm={6} md={4} key={index}>
             <RandomColorCard onClick={() => onCardClick(i.area)}>
               <CardContent>
